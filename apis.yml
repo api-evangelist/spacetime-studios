@@ -1,8 +1,26 @@
 aid: spacetime-studios
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spacetime-studios.png
 name: Spacetime Studios
-description: 'Spacetime Studios is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Spacetime Studios is an Austin, Texas mobile game developer and the creator
+  of the free-to-play "Legends" series of cross-platform MMORPGs, including Arcane Legends,
+  Pocket Legends, Star Legends, and Dark Legends. Founded by veteran game developers, the
+  studio operates a consumer-facing community forum, an in-game item web store, and player
+  support channels. It was surfaced as a portfolio company of Insight Partners and added to
+  the API Evangelist network. As of this enrichment pass the studio publishes no public
+  developer API, SDK, OpenAPI/AsyncAPI specification, developer portal, or /.well-known
+  discovery surface; this profile captures its verified public web properties and domain
+  security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/spacetime-studios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Games
+- MMORPG
+- Video Games
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: http://www.spacetimestudios.com/
+- type: Support
+  url: https://www.spacetimestudios.com/forum.php
+- type: Pricing
+  url: https://store.spacetimestudios.com/WebStore/store.jsp
+- type: PrivacyPolicy
+  url: https://www.spacetimestudios.com/content.php?384-Spacetime-Studios-Privacy-Policy
+- type: TermsOfService
+  url: https://www.spacetimestudios.com/content.php?385-Terms-of-Service
+- type: DomainSecurity
+  url: security/spacetime-studios-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
